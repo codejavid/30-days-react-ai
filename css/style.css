@@ -1,0 +1,50 @@
+
+
+/* Tag selector */
+/* h1{
+    color: orangered;
+} */
+
+/* Class */
+/* .world{
+    color: green;
+} */
+
+/* ID */
+/* #greet{
+    color: blue;
+} */
+
+
+/* 
+h1{
+    color: blue;
+}
+
+.greetclass{
+    color: red;
+} */
+
+#greet{
+    /* color: blueviolet; */
+    color: #4328DD;
+    /* color: rgba(67, 40, 221,1); */
+}
+
+
+.box{
+    border: 5px solid blue;
+    /* padding: 50px; */
+    /* padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+    padding-left: 200px; */
+
+    /* Two params */
+    /* padding: 50px 100px; */
+
+    /* Four params */
+    /* padding: 50px 100px 150px 200px; */
+    
+    margin: 50px;
+}
