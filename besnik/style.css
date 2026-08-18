@@ -13,7 +13,7 @@ body{
     margin: 0px auto;
 }
 
-a{
+a, span{
     text-decoration: none;
     display: inline-block;
 }
@@ -75,3 +75,111 @@ header{
  ;
 }
 
+/* clients */
+
+.clients{
+    padding: 100px 0px;
+}
+
+.clients h6{
+    color: #B2B7BE;
+    font-size: 16px;
+    font-weight:700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.clients-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* solutions */
+
+.solutions{
+    padding: 100px 0px;
+}
+
+.solutions .container{
+    width: 50%;
+}
+
+.sec-heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sec-heading h2{
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.solutions-wrapper > div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.solutions-wrapper > div:nth-child(3){
+    margin-bottom: 0px;
+}
+
+.solutions-wrapper > div > div > span{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.solutions-wrapper > div h3{
+    margin-bottom: 20px;
+}
+
+.solutions-wrapper > div p{
+    margin-bottom: 15px;
+}
+
+.solutions-wrapper > div > div{
+    width: 50%;
+}
+
+.solutions-wrapper a{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.solutions-wrapper > div:nth-child(1) > div:nth-child(2),
+.solutions-wrapper > div:nth-child(3) > div:nth-child(2) {
+   text-align: right;
+}
+
+.solutions-wrapper > div:nth-child(2) > div:nth-child(1){
+    order: 2;
+}
+
+
+.solutions-wrapper > div:nth-child(2) > div:nth-child(2){
+    order: 1;
+}
+
+/* search */
+.search{
+    padding: 100px 0px;
+    background-color: #231A36;
+    color: #ffffff;
+}
+
+.search .container{
+    width: 60%;
+}
+
+.serach-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.serach-wrapper > div{
+    text-align: center;
+    margin-top: 50px;
+}
