@@ -66,7 +66,7 @@ header{
 }
 
 .banner h1{
-    font-size: 94px;
+    font-size: 50px;
     margin-bottom: 20px;
 }
 
@@ -100,9 +100,7 @@ header{
     padding: 100px 0px;
 }
 
-.solutions .container{
-    width: 50%;
-}
+
 
 .sec-heading{
     text-align: center;
@@ -111,7 +109,7 @@ header{
 
 .sec-heading h2{
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 600;
 }
 
@@ -139,9 +137,6 @@ header{
     margin-bottom: 15px;
 }
 
-.solutions-wrapper > div > div{
-    width: 50%;
-}
 
 .solutions-wrapper a{
     display: flex;
@@ -302,4 +297,83 @@ footer{
 .footer-bottom{
     text-align: center;
     margin-top: 50px;
+}
+
+@media screen and (min-width: 998px) {
+    .solutions .container{
+        width: 50%;
+    }
+
+    .solutions-wrapper > div > div{
+        width: 50%;
+    }
+
+    .sec-heading h2{ 
+        font-size: 40px;
+    }
+    
+    
+}
+@media screen and (min-width: 768px) {
+    .banner h1{
+        font-size: 94px;
+        margin-bottom: 20px;
+    }
+
+    .line-break{
+        display: block;
+    }
+    
+}
+
+
+@media screen and (max-width: 998px) {
+    .clients-wrapper{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .clients-wrapper > div{
+        width: 30%;
+    }
+
+    .solutions-wrapper > div{
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .solutions-wrapper a{
+        justify-content: center;
+    }
+
+    .solutions-wrapper > div:nth-child(2) > div:nth-child(1){
+        order: 1;
+    }
+    
+    
+    .solutions-wrapper > div:nth-child(2) > div:nth-child(2){
+        order: 2;
+    }
+
+    .serach-wrapper{
+        flex-wrap: wrap;
+    }
+
+    .serach-wrapper > div{
+        width: 45%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .header-wrapper{
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .clients-wrapper > div{
+        width: 48%;
+    }
+    
 }
