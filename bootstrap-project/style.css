@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+/* btn */
+
+.my-btn{
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.my-btn-outline-dark{
+    border: 1px solid #333333;
+    color: #333333 !important;
+}
+
+.my-btn-primary{
+    background-color: #651FFF;
+    color: #ffffff !important;
+}
+/* Banner */
+.banner,
+.mid-img,
+.privacy{
+    padding: 100px 0px;
+}
+
+.banner{
+     background-color: #EBE5FA;
+}
+
+/* privacy */
+
+.privacy-wrapper > div > div > div{
+    background-color: #651FFF;
+    padding: 80px 40px;
+    color: #ffffff;
+    border-radius: 20px;
+}
