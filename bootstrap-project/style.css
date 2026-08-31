@@ -44,7 +44,9 @@ ul{
 .privacy,
 .team,
 .storage,
-.pricing{
+.pricing,
+.works,
+.ready{
     padding: 100px 0px;
 }
 
@@ -112,4 +114,33 @@ ul{
  color: white;
  border-radius: 20px;
  font-size: 10px;
+}
+
+/* works */
+
+.works-box{
+    position: relative;
+}
+
+.line{
+    position: absolute;
+    top: 45px;
+    left: 78%;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    .works-box{
+        margin-bottom: 280px;
+    }
+
+
+    .line{
+       rotate: 90deg;
+       top:300px;
+       left: 39%;
+    }
+
+
 }
