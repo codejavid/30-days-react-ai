@@ -1,0 +1,37 @@
+
+
+// remove element
+
+const list = document.querySelector("li");
+
+// console.log(list);
+
+// list.remove();
+
+// const lists = document.querySelectorAll("li"); // nodelist
+
+// lists.forEach(function(li){
+
+//     li.remove()
+
+// })
+
+// Class && attr
+
+const firstLi = document.querySelector("li:nth-child(1)");
+
+const link = firstLi.children[0]
+
+let val;
+
+
+val = link.className;
+val = link.classList; // domtokenlist
+
+val.add("javid");
+
+val.remove("test");
+
+val.replace("javid", "jagan");
+
+console.log(val);
